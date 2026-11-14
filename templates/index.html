@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block main %}
+<article class="home prose">
+  <p class="app-context">Google Calendar connection</p>
+  <h1 id="content" tabindex="-1">{{ section.title }}</h1>
+  {{ section.content | safe }}
+</article>
+{% endblock main %}

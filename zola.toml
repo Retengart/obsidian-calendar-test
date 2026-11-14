@@ -1,0 +1,12 @@
+base_url = "https://retengart.github.io/obsidian-calendar-test/"
+title = "Obsidian Calendar Test"
+description = "About the Google Calendar connection for Obsidian, data access and support."
+default_language = "en"
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+generate_sitemap = false
+generate_robots_txt = false
+
+[extra]
+support_email = "calendar-plugin-obsidian-beta@googlegroups.com"

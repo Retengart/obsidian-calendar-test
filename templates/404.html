@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Page not found | {{ config.title }}{% endblock title %}
+{% block main %}
+<article class="document prose">
+  <h1 id="content" tabindex="-1">Page not found</h1>
+  <p>Check the address or visit the <a href="{{ get_url(path='', trailing_slash=true) }}">connection home page</a>.</p>
+</article>
+{% endblock main %}
